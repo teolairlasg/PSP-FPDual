@@ -12,7 +12,6 @@ int main(int argc, char const *argv[])
 	p1.fecha_nac = fnac;
 
 	printf("Nombre:%s, %s\nEdad: %d", p1.apellido, p1.nombre, obtener_edad(&p1));
-
 	return 0;
 }
 
